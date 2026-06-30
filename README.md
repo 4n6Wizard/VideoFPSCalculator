@@ -28,6 +28,8 @@ anything else.
 The tool generates an HTML report like the one in
 [`sample_report.html`](sample_report.html):
 
+![Example Video FPS Report](screenshot.png)
+
 | # | Filename | FPS | Duration | Total Frames | Info |
 |---|----------|-----|----------|--------------|------|
 | 1 | short_dance_vertical.mp4 | 30.0 | 0:09 | 285 | 1080x1920 H264 |
