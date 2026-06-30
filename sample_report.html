@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Video FPS Report</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #222;
+    margin: 40px;
+  }
+  h1 { font-size: 1.4rem; margin-bottom: 4px; }
+  .meta { color: #666; font-size: 0.85rem; margin-bottom: 24px; }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,.1);
+  }
+  th {
+    background: #2c3e50;
+    color: #fff;
+    padding: 10px 14px;
+    text-align: left;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+  }
+  td {
+    padding: 9px 14px;
+    font-size: 0.88rem;
+    border-bottom: 1px solid #e8e8e8;
+  }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: #f0f4f8; }
+  tr.err td { color: #c0392b; background: #fff5f5; }
+  strong { color: #1a6eb5; }
+  .summary {
+    margin-bottom: 16px;
+    font-size: 0.9rem;
+  }
+  .summary span { font-weight: bold; }
+</style>
+</head>
+<body>
+
+<h1>Video FPS Report</h1>
+<p class="meta">
+  Generated: 2026-01-01 12:00:00 &nbsp;|&nbsp; Source: <code>C:/Videos</code>
+</p>
+
+<p class="summary">
+  <span>3</span> file(s) scanned &nbsp;&bull;&nbsp;
+  <span>3</span> successful &nbsp;&bull;&nbsp;
+  <span>15,330</span> total frames &nbsp;&bull;&nbsp;
+  <span>0</span> error(s)
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Filename</th>
+      <th>FPS</th>
+      <th>Duration</th>
+      <th>Total Frames (FPS x Duration)</th>
+      <th>Info</th>
+    </tr>
+  </thead>
+  <tbody>
+<tr><td>1</td><td title="C:\Videos\interview.mp4">interview.mp4</td><td>24.0</td><td>3:07</td><td><strong>4,497</strong></td><td>1920x1080 &nbsp;H264</td></tr>
+<tr><td>2</td><td title="C:\Videos\drone_flight.mov">drone_flight.mov</td><td>29.97</td><td>2:30</td><td><strong>4,496</strong></td><td>3840x2160 &nbsp;HEVC</td></tr>
+<tr><td>3</td><td title="C:\Videos\screen_capture.mkv">screen_capture.mkv</td><td>60.0</td><td>1:46</td><td><strong>6,337</strong></td><td>2560x1440 &nbsp;VP9</td></tr>
+  </tbody>
+</table>
+
+</body>
+</html>

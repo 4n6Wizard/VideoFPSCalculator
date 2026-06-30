@@ -1,0 +1,9 @@
+# Video FPS Calculator has no third-party Python dependencies.
+# It uses only the Python standard library (including Tkinter for the GUI).
+#
+# External requirement (not a pip package):
+#   FFmpeg / ffprobe  -> https://ffmpeg.org/download.html
+#   ffprobe must be on your PATH when running from source.
+#
+# Build-time only (to produce the .exe):
+#   pyinstaller

@@ -1,0 +1,18 @@
+# Build artifacts
+build/
+dist/
+*.spec.bak
+
+# PyInstaller / Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Executables and bundled third-party binaries (published via Releases instead)
+*.exe
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
