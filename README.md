@@ -30,9 +30,12 @@ The tool generates an HTML report like the one in
 
 | # | Filename | FPS | Duration | Total Frames | Info |
 |---|----------|-----|----------|--------------|------|
-| 1 | interview.mp4 | 24.0 | 3:07 | 4,497 | 1920x1080 H264 |
-| 2 | drone_flight.mov | 29.97 | 2:30 | 4,496 | 3840x2160 HEVC |
-| 3 | screen_capture.mkv | 60.0 | 1:46 | 6,337 | 2560x1440 VP9 |
+| 1 | short_dance_vertical.mp4 | 30.0 | 0:09 | 285 | 1080x1920 H264 |
+| 2 | countdown_timer_10s.mp4 | 23.976 | 0:30 | 734 | 1920x1080 H264 |
+| 3 | countdown_explosion.mp4 | 23.976 | 0:42 | 1,024 | 1920x1080 H264 |
+| 4 | countdown_saber.mp4 | 25.0 | 0:28 | 702 | 1920x1080 H264 |
+| 5 | new_year_clock.mp4 | 25.0 | 0:20 | 511 | 1920x1080 H264 |
+| 6 | tutorial_intro.mp4 | 24.0 | 3:07 | 4,497 | 1920x1080 H264 |
 
 ---
 
